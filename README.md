@@ -4,7 +4,7 @@ This repository contains the IntelliJ IDEA plugin "Meme Window" along with the s
 
 ## **Repository Structure**
 
-* **`MyPlugin.zip`**  
+* **`Meme Window 1.0.0.zip`**  
   The plugin packaged as a `.zip` file. You can install this plugin in IntelliJ IDEA to experience the `Meme Window` functionality.  
 * **`MemeWindowSource/`**  
   The source code and assets for the `Meme Window` program, implemented in Java with Swing. Includes:  
