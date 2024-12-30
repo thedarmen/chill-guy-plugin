@@ -1,86 +1,66 @@
-# **Meme Window Plugin for IntelliJ IDEA**
+Here’s the updated \`README.md\` tailored to the simplified structure of your GitHub repository:
 
-## **Overview**
+\---
 
-The **Meme Window Plugin** is an IntelliJ IDEA plugin designed to create an interactive and fun experience. The plugin introduces a tool window called **Meme Window**, where a meme dynamically resizes and follows the cursor based on its entry direction.
+\# Meme Window IntelliJ Plugin
 
-## **Features**
+This repository contains the IntelliJ IDEA plugin "Meme Window" along with the source code of the \`Meme Window\` program for review.
 
-* Adds a custom **Meme Window** to IntelliJ IDEA.  
-* Displays a meme that dynamically resizes and follows the cursor.  
-* Logic-based resizing depending on cursor movement (horizontal or vertical).  
-* Supports customizable meme images.
+\#\# Repository Structure
 
-## **Requirements**
+\- \*\*\`MyPlugin.zip\`\*\*    
+  The plugin packaged as a \`.zip\` file. You can install this plugin in IntelliJ IDEA to experience the \`Meme Window\` functionality.
 
-* **IntelliJ IDEA**: Version 2023.3.4 (Ultimate Edition or Community Edition).  
-* **JDK**: Version 17 or higher.  
-* **Gradle**: Version 8.5 or compatible.
+\- \*\*\`MemeWindowSource/\`\*\*    
+  The source code and assets for the \`Meme Window\` program, implemented in Java with Swing. Includes:  
+  \- \`MemeWindow.java\`: Source code for the program.  
+  \- \`meme.png\`: The image asset used for the meme resizing effect.
 
-## **Installation**
+\- \*\*\`README.md\`\*\*    
+  This file, describing the contents of the repository and how to use the plugin and source code.
 
-### **1\. Install the Plugin**
+\---
 
-1. Download the plugin `.zip` file from the Releases.  
-2. Open IntelliJ IDEA.  
-3. Navigate to **Settings \> Plugins \> ⚙ \> Install Plugin from Disk**.  
-4. Select the downloaded `.zip` file.  
-5. Restart IntelliJ IDEA.
+\#\# Installing the Plugin
 
-### **2\. Build from Source (Optional)**
+1\. \*\*Download and Install\*\*    
+   \- Download the \`MyPlugin.zip\` file from this repository.  
+   \- Open IntelliJ IDEA and go to \`File \> Settings \> Plugins \> ⚙️ \> Install Plugin from Disk\`.  
+   \- Select the \`MyPlugin.zip\` file and follow the installation steps.
 
-1. Clone the repository:  
-   git clone \<repository-link\>  
-2. Navigate to the project directory:  
-   cd \<project-folder\>  
-3. Build the plugin using Gradle:  
-   ./gradlew buildPlugin  
-4. Locate the `.zip` file in `build/distributions` and install it as described above.
+2\. \*\*Use the Plugin\*\*    
+   \- Restart IntelliJ IDEA after installation.  
+   \- Open the \`Tools \> Meme Window\` menu to launch the plugin.  
+   \- Enjoy the meme resizing effect by moving your mouse within the window.
 
-## **Usage**
+\---
 
-1. Open IntelliJ IDEA.  
-2. Navigate to **View \> Tool Windows \> Meme Window**.  
-3. Interact with the meme by moving the cursor over the window. The meme dynamically resizes and follows the cursor.
+\#\# Source Code of Meme Window
 
-### **Customizing the Meme**
+The \`Meme Window\` functionality is implemented in Java using the Swing library. The source code is available in the \`MemeWindowSource/\` directory of this repository.
 
-1. Replace the `meme.png` file in the plugin's source directory.  
-2. Ensure the new image is placed in `src/main/resources`.  
-3. Rebuild the plugin as described above.
+\#\#\# Directory Structure  
+\- \*\*\`MemeWindow.java\`\*\*    
+  Contains the source code of the \`Meme Window\` program.  
+\- \*\*\`meme.png\`\*\*    
+  The image asset used for the meme resizing effect.
 
-## **How It Works**
+\#\#\# Running the Source Code  
+1\. Ensure you have Java installed (version 8 or above).  
+2\. Navigate to the \`MemeWindowSource\` directory in a terminal or IDE.  
+3\. Compile the program:  
+      javac MemeWindow.java  
+4\. Run the program:    
+      java MemeWindow  
+5\. Move your cursor into the window to see the meme resizing effect.
 
-* **Dynamic Resizing**: The meme resizes based on cursor movement and its entry direction.  
-  * Horizontal movement increases or decreases size depending on entry from left or right.  
-  * Vertical movement adjusts size for entry from top or bottom.  
-* **Smooth Interaction**: The meme always follows the cursor for seamless user experience.
+\---
 
-## **Technical Details**
+\#\# Notes
 
-* **Languages**: Kotlin and Java (for core logic).  
-* **Libraries**: Built-in Java Swing for GUI development.  
-* **Build Tool**: Gradle.
+\- This plugin was developed for educational purposes and may require IntelliJ IDEA 2023.1.5 or later for compatibility.  
+\- For issues or feedback, please contact me via this repository.
 
-## **Contributing**
+\---
 
-Contributions are welcome\! Follow these steps:
-
-1. Fork the repository.  
-2. Create a new branch:  
-   git checkout \-b feature-name  
-3. Commit your changes and push the branch:  
-   git push origin feature-name  
-4. Create a Pull Request.
-
-## **License**
-
-This plugin is licensed under the MIT License. See the LICENSE file for details.
-
-## **Contact**
-
-For questions or issues, feel free to contact:
-
-* **Author**: Darmen Mellat  
-* **Email**: \[darmen.mellat@gmail.com\]
-
+Feel free to replace "me" or "this repository" with your actual contact or submission details\! Let me know if you need further refinements.  
