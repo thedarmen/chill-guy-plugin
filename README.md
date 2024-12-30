@@ -1,7 +1,3 @@
-Here’s the updated \`README.md\` tailored to the simplified structure of your GitHub repository:
-
-\---
-
 \# Meme Window IntelliJ Plugin
 
 This repository contains the IntelliJ IDEA plugin "Meme Window" along with the source code of the \`Meme Window\` program for review.
